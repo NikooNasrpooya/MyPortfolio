@@ -36,7 +36,7 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: './assets/bootstrap.png',
+      src: './assets/graphql.png',
       title: "GraphQL",
     },
     {
@@ -61,7 +61,7 @@ const Skills = () => {
     },
     {
       id: 12,
-      src: './assets/python.png',
+      src: './assets/Docker.png',
       title: "Python",
     },
     {
