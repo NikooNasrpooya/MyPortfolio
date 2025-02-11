@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: '/assets/portfolio/',
+      src: './assets/portfolio/',
     },
   ];
 
