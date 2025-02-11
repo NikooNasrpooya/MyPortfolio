@@ -46,7 +46,7 @@ const Skills = () => {
     },
     {
       id: 9,
-      src: './assets/Bootstrap.png',
+      src: './assets/bootstrap.png',
       title: "Bootstrap",
     },
     {
