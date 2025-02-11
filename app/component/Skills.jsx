@@ -21,37 +21,37 @@ const Skills = () => {
     },
     {
       id: 4,
-      src: './assets/react.png',
+      src: './assets/React.png',
       title: "React",
     },
     {
       id: 5,
-      src: './assets/tailwind.png',
+      src: './assets/Tailwind.png',
       title: "Tailwind",
     },
     {
       id: 6,
-      src: './assets/nextjs.png',
+      src: './assets/Nextjs.png',
       title: "Next JS",
     },
     {
       id: 7,
-      src: './assets/graphql.png',
+      src: './assets/Graphql.png',
       title: "GraphQL",
     },
     {
       id: 8,
-      src: './assets/github.png',
+      src: './assets/GitHub.png',
       title: "GitHub",
     },
     {
       id: 9,
-      src: './assets/bootstrap.png',
+      src: './assets/Bootstrap.png',
       title: "Bootstrap",
     },
     {
       id: 10,
-      src: './assets/git.png',
+      src: './assets/Git.png',
       title: "Git",
     },
     {
@@ -61,7 +61,7 @@ const Skills = () => {
     },
     {
       id: 12,
-      src: './assets/python.png',
+      src: './assets/Python.png',
       title: "Python",
     },
     {
