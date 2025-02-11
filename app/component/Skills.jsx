@@ -6,82 +6,82 @@ const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: '/assets/html.png',
+      src: './assets/html.png',
       title: "HTML",
     },
     {
       id: 2,
-      src: '/assets/css.png',
+      src: './assets/css.png',
       title: "CSS",
     },
     {
       id: 3,
-      src: '/assets/javascript.png',
+      src: './assets/javascript.png',
       title: "JavaScript",
     },
     {
       id: 4,
-      src: '/assets/React.png',
+      src: './assets/React.png',
       title: "React",
     },
     {
       id: 5,
-      src: '/assets/Tailwind.png',
+      src: './assets/Tailwind.png',
       title: "Tailwind",
     },
     {
       id: 6,
-      src: '/assets/Nextjs.png',
+      src: './assets/Nextjs.png',
       title: "Next JS",
     },
     {
       id: 7,
-      src: '/assets/Graphql.png',
+      src: './assets/Graphql.png',
       title: "GraphQL",
     },
     {
       id: 8,
-      src: '/assets/GitHub.png',
+      src: './assets/GitHub.png',
       title: "GitHub",
     },
     {
       id: 9,
-      src: '/assets/Bootstrap.png',
+      src: './assets/Bootstrap.png',
       title: "Bootstrap",
     },
     {
       id: 10,
-      src: '/assets/Git.png',
+      src: './assets/Git.png',
       title: "Git",
     },
     {
       id: 11,
-      src: '/assets/visualstudio.png',
+      src: './assets/visualstudio.png',
       title: "Visual Studio",
     },
     {
       id: 12,
-      src: '/assets/Python.png',
+      src: './assets/Python.png',
       title: "Python",
     },
     {
       id: 13,
-      src: '/assets/node.png',
+      src: './assets/node.png',
       title: "Node Js",
     },
     {
       id: 14,
-      src: '/assets/c-.png',
+      src: './assets/c-.png',
       title: "C Programming",
     },
     {
       id: 15,
-      src: '/assets/Docker.png',
+      src: './assets/Docker.png',
       title: "Docker",
     },
     {
       id: 16,
-      src: '/assets/mysql.png',
+      src: './assets/mysql.png',
       title: "MySQL",
     },
     
