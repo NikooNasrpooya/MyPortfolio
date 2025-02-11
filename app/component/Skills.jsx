@@ -51,7 +51,7 @@ const Skills = () => {
     },
     {
       id: 10,
-      src: './assets/Git.png',
+      src: './assets/git.png',
       title: "Git",
     },
     {
