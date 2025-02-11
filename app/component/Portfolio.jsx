@@ -6,28 +6,28 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: '/assets/portfolio/CSSGrid.jpg',
+      src: './assets/portfolio/CSSGrid.jpg',
       title: "CSSGrid",
     },
     {
       id: 2,
-      src: '/assets/portfolio/toDoList.png',
+      src: './assets/portfolio/toDoList.png',
     },
     {
       id: 3,
-      src: '/assets/portfolio/navbar.jpg',
+      src: './assets/portfolio/navbar.jpg',
     },
     {
       id: 4,
-      src: '/assets/portfolio/reactSmooth',
+      src: './assets/portfolio/reactSmooth',
     },
     {
       id: 5,
-      src: '/assets/portfolio/installNode',
+      src: './assets/portfolio/installNode',
     },
     {
       id: 6,
-      src: '/assets/portfolio/',
+      src: './assets/portfolio/',
     },
   ];
 

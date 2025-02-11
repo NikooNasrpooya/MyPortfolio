@@ -31,7 +31,7 @@ const Main = () => {
         </div>
         <div>
           <img
-            src="/assets/profile.jpg"
+            src="./assets/profile.jpg"
             alt="my profile "
             className="rounded-2xl mx-auto w-2/3 md:w-2/3"
           />
