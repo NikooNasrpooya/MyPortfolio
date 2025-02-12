@@ -61,7 +61,7 @@ const Skills = () => {
     },
     {
       id: 12,
-      src: './assets/Docker.png',
+      src: './assets/python.png',
       title: "Python",
     },
     {
