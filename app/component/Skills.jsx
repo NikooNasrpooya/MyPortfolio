@@ -36,7 +36,7 @@ const Skills = () => {
     },
     {
       id: 7,
-      src: './assets/nextjs.png',
+      src: './assets/graphql.png',
       title: "GraphQL",
     },
     {
