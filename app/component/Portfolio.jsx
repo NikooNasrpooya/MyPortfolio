@@ -6,28 +6,42 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: './assets/portfolio/CSSGrid.jpg',
-      title: "CSSGrid",
+      src: './assets/portfolio/toDoList.png',
+      title: "ToDoList",
+      demoLink: "https://nikoonasrpooya.github.io/To-Do-List/",
+      codeLink: "https://github.com/NikooNasrpooya/To-Do-List",
     },
     {
       id: 2,
-      src: './assets/portfolio/toDoList.png',
+      src: './assets/portfolio/drumkit.png',
+      title: "Drum Kits",
+      demoLink: "https://nikoonasrpooya.github.io/DrumKits/",
+      codeLink: "https://github.com/NikooNasrpooya/DrumKits",
     },
     {
       id: 3,
-      src: './assets/portfolio/navbar.jpg',
+      src: './assets/portfolio/shop.png',
+      title: "Shop",
+      demoLink: "https://nikoonasrpooya.github.io/shop/",
+      codeLink: "https://github.com/NikooNasrpooya/shop",
     },
     {
       id: 4,
-      src: './assets/portfolio/reactSmooth',
+      src: './assets/portfolio/first-portfolio-website.png',
+      demoLink: "https://nikoo-nasrpooya.github.io/portfolio-website/",
+      codeLink: "https://github.com/NikooNasrpooya/First-Portfolio-Website",
     },
     {
       id: 5,
-      src: './assets/portfolio/installNode',
+      src: './assets/portfolio/cardcomponent.png',
+      demoLink: "https://github.com/NikooNasrpooya/preview-card-component-myCode/blob/main/README.md",
+      codeLink: "https://github.com/NikooNasrpooya/preview-card-component-myCode",
     },
     {
       id: 6,
       src: './assets/portfolio/',
+      demoLink: "",
+      codeLink: "",
     },
   ];
 
@@ -45,19 +59,23 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, title }) => (
+          {portfolios.map(({ id, src, title ,  demoLink, codeLink}) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md h-4/5 duration-200 hover:scale-105"
                 title={title}
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
+                <button 
+                onClick={() => window.open(demoLink, "_blank")}
+                className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
                   Demo
                 </button>
-                <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
+                <button 
+                onClick={() => window.open(codeLink, "_blank")}
+                className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
               </div>
